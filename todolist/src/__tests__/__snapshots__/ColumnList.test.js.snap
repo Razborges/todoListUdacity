@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderiza corretamente 1`] = `
+<div
+  className="column-list"
+>
+  <h3>
+    Valor Default
+  </h3>
+  <If
+    test={false}
+  >
+    <form>
+      <input
+        placeholder="Create new task"
+        type="text"
+      />
+      <button
+        type="submit"
+      >
+        Add Task
+      </button>
+    </form>
+  </If>
+  <ul
+    className="list-items"
+  />
+</div>
+`;
+
+exports[`renderiza toda arvore de componente, Done 1`] = `
+<div
+  class="column-list"
+>
+  <h3>
+    Done
+  </h3>
+  <ul
+    class="list-items"
+  />
+</div>
+`;
+
+exports[`renderiza toda arvore de componente, To Do 1`] = `
+<div
+  class="column-list"
+>
+  <h3>
+    To Do
+  </h3>
+  <form>
+    <input
+      placeholder="Create new task"
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+      Add Task
+    </button>
+  </form>
+  <ul
+    class="list-items"
+  />
+</div>
+`;

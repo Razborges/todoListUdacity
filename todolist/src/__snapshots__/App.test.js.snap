@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h2>
+      To Do List
+    </h2>
+  </div>
+  <div
+    className="App-container"
+  >
+    <div
+      className="app-lists"
+    >
+      <ColumnList
+        addTask={[Function]}
+        items={Array []}
+        title="To Do"
+        updateTask={[Function]}
+      />
+      <ColumnList
+        addTask={[Function]}
+        items={Array []}
+        title="Done"
+        updateTask={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
